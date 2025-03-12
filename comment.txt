@@ -1,0 +1,11 @@
+python manage.py makemigrations
+python manage.py sqlmigrate garten 0001
+python manage.py migrate
+python manage.py shell_plus --print-sql
+
+Garten.objects.create(title=Прогулки, content=Прогулки на улице)
+w = _
+w.content                  # 'Прогулки на улице'w = Garten.objects.all()[0]
+w = Garten.objects.all()
+w = Garten.objects.all()[0]
+w = Garten.objects.all()[:3]
