@@ -1,3 +1,5 @@
 git remote add origin https://github.com/buddy1249/kindergarten_teacher_site.git
 git branch -M main
 git push -u origin main
+
+git push --set-upstream origin db.sqlite3_1
